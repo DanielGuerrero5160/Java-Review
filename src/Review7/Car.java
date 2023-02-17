@@ -1,8 +1,8 @@
 package Review7;
 
 public class Car {
-    String make, model;
-    int horsePower, year;
+   protected String make, model;
+   protected int horsePower, year;
 
  public Car(String make, String model){
       this.make=make;

@@ -10,7 +10,7 @@ public class Tesla extends Car{
 
     }
 
-    Tesla(String make, String model, int horsePower, int year,String type,boolean autoPilot){
+   public Tesla(String make, String model, int horsePower, int year,String type,boolean autoPilot){
         super( make, model, horsePower, year);//passing constructor of super class
         //this is also initializing the instance variables of the super class.
         //through inheritance, this child class has everything the parent or super class has
